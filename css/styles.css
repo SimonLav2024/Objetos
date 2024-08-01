@@ -1,0 +1,60 @@
+
+body {
+    background-color: rgba(193, 177, 177, 0.767);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation-name: colores;
+    animation-duration: 44s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes colores {
+    0%   {background-color: rgba(122, 155, 84, 0.897);}
+    10%  {background-color: rgba(23, 23, 130, 0.819);}
+    20%  {background-color: rgba(151, 107, 25, 0.818);}
+    30% {background-color: rgba(12, 109, 12, 0.652);}
+    40% {background-color: rgba(128, 76, 171, 0.744);}
+    50% {background-color: rgba(134, 164, 151, 0.726);}
+    60% {background-color: rgb(93, 16, 27);}
+    70% {background-color: rgba(129, 146, 22, 0.455);}
+    80% {background-color: rgba(8, 193, 193, 0.634);}
+    90% {background-color: rgba(225, 55, 194, 0.677);}
+    100% {background-color: beige;}
+}
+.color {
+    background-color: rgba(183, 233, 156, 0.593);
+    border-radius: 3rem;
+    border-style: groove;
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    margin-top: 50%;
+}
+@media (min-width: 480px) {
+    .color {
+        margin-top: 250px;
+        width: 65%;
+    }
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 37px;
+}
+#texto {
+    font-size: 22px;
+}
+#autor {
+    font-size: 22px;
+    font-weight: bold;
+}
+.boton {
+    padding: 1rem 4rem 1rem 4rem;
+    margin-bottom: 2rem;
+    background-color: rgba(0, 0, 255, 0.221);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
